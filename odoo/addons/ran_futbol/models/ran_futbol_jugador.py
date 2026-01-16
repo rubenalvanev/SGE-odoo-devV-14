@@ -16,3 +16,4 @@ class RanFutbolJugador(models.Model):
     ], string='Posicion', default='2')
 
     equipo_id = fields.Many2one('ran_futbol.equipo', string='Equipo')
+    estadisticas_ids = fields.One2many('ran_futbol.estadisticas', 'jugador_id', string='Estadisticas')

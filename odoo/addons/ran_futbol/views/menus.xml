@@ -4,12 +4,24 @@
         <record id="ran_futbol.equipo_action" model="ir.actions.act_window">
             <field name="name">Equipos</field>
             <field name="res_model">ran_futbol.equipo</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">kanban,tree,form</field>
         </record>
 
         <record id="ran_futbol.jugador_action" model="ir.actions.act_window">
             <field name="name">Jugador</field>
             <field name="res_model">ran_futbol.jugador</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="ran_futbol.estadisticas_action" model="ir.actions.act_window">
+            <field name="name">Estadisticas</field>
+            <field name="res_model">ran_futbol.estadisticas</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="ran_futbol.clasificacion_action" model="ir.actions.act_window">
+            <field name="name">Clasificación</field>
+            <field name="res_model">ran_futbol.clasificacion</field>
             <field name="view_mode">tree,form</field>
         </record>
 
@@ -29,6 +41,20 @@
             id="ran_futbol.jugador_menu"
             name="Jugador"
             action="ran_futbol.jugador_action"
+            parent="ran_futbol.root_menu"
+            sequence="10"/>
+
+        <menuitem
+            id="ran_futbol.estadisticas_menu"
+            name="Estadisticas"
+            action="ran_futbol.estadisticas_action"
+            parent="ran_futbol.root_menu"
+            sequence="10"/>
+
+        <menuitem
+            id="ran_futbol.clasificaion_menu"
+            name="Clasificacion"
+            action="ran_futbol.clasificacion_action"
             parent="ran_futbol.root_menu"
             sequence="10"/>
 

@@ -6,16 +6,12 @@
             <field name="arch" type="xml">
                 <tree string="Equipo">
                     <field name="name" />
+                    <field name="imagen" widget="image" />
                     <field name="dinero" optional="show" />
                     <field name="division" optional="show" />
+                    <field name="goles" />
                     <field name="fecha_ultimo_partido" optional="show" />
-                    <field name="jugador_ids">
-                        <tree string="Jugador">
-                            <field name="name" />
-                            <field name="numero_camiseta" />
-                            <field name="posicion" />   
-                        </tree>
-                    </field>
+                    <field name="jugador_ids" />
                 </tree>
             </field>
         </record>
@@ -25,17 +21,73 @@
             <field name="model">ran_futbol.equipo</field>
             <field name="arch" type="xml">
                 <form string="Equipo">
-                <group name="name" string="string">
-                    <field name="name" />
-                    <field name="dinero" />
-                    <field name="division" />
-                    <field name="fecha_ultimo_partido" />
-                    <field name="jugador_ids" />
-                </group>
+                    <group name="name" string="string">
+                        <field name="name" />
+                        <field name="imagen" />
+                        <field name="dinero" />
+                        <field name="division" />
+                        <field name="goles" />
+                        <field name="fecha_ultimo_partido" />
+                        <field name="jugador_ids">
+                            <tree string="Jugador">
+                                <field name="name" />
+                                <field name="numero_camiseta" />
+                                <field name="anio" />
+                                <field name="fecha_llegada" />
+                                <field name="posicion" />
+                                <field name="equipo_id" />
+                            </tree>
+                        </field>
+                    </group>
                 </form>
             </field>
         </record>
 
+        <record id="ran_futbol_equipo_kanban_view" model="ir.ui.view">
+            <field name="name">ran_futbol.equipo.kanban</field>
+            <field name="model">ran_futbol.equipo</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_small_column" default_group_by="division">
+                    <field name="name"/>
+                    <field name="dinero"/>
+                    <field name="division"/>
+                    <field name="goles" />
+                    <field name="fecha_ultimo_partido"/>
+                    <field name="jugador_ids"/>
+                    <field name="imagen" />
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_card oe_kanban_global_click d-flex flex-column p-2">
+                                <strong class="o_kanban_record_title mb-1">
+                                    <field name="name"/>
+                                </strong>
+                                <div class="o_kanban_avatar mb-2">
+                                    <field name="imagen" widget="image"/>
+                                </div>
+                                <div class="o_kanban_record_subtitle mb-1">
+                                    División: <t t-esc="record.division.value"/>
+                                </div>
+                                <div class="mb-1">
+                                    Dinero: <field name="dinero" widget="monetary" options="{'currency_field': 'company_currency'}"/>
+                                    Goles: <field name="goles" />
+                                </div>
+                                <div class="mb-1">
+                                    Último partido: <field name="fecha_ultimo_partido"/>
+                                </div>
+                                <div>
+                                    Jugadores:
+                                    <ul>
+                                        <t t-foreach="record.jugador_ids.raw_value" t-as="jugador">
+                                            <li><t t-esc="jugador[1]"/></li>
+                                        </t>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
 
     </data>
 </odoo>

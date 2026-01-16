@@ -8,8 +8,8 @@
 Long description of module's purpose
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Rubén Álvarez",
+    'website': "https://github.com/rubenalvanev",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -25,6 +25,8 @@ Long description of module's purpose
         'security/ir.model.access.csv',
         'views/ran_futbol_jugador.xml',
         'views/ran_futbol_equipo.xml',
+        'views/ran_futbol_estadisticas.xml',
+        'views/ran_futbol_clasificacion.xml',
         'views/menus.xml',
     ],
     # only loaded in demonstration mode

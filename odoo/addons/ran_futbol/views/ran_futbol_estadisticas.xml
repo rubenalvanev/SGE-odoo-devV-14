@@ -1,0 +1,41 @@
+<odoo>
+    <data>
+        <record id="ran_futbol.estadisticas_view_tree" model="ir.ui.view">
+            <field name="name">ran_futbol.estadisticas.tree</field>
+            <field name="model">ran_futbol.estadisticas</field>
+            <field name="arch" type="xml">
+                <tree string="Estadisticas">
+                    <field name="name" />
+                    <field name="jugador_id" />
+                    <field name="imagen" />
+                    <field name="partidos" />
+                    <field name="goles" />
+                    <field name="mins_jugados" />
+                    <field name="tarjetas" />
+                    <field name="rendimiento" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="ran_futbol.estadisticas_view_form" model="ir.ui.view">
+            <field name="name">ran_futbol.estadisticas.form</field>
+            <field name="model">ran_futbol.estadisticas</field>
+            <field name="arch" type="xml">
+                <form string="Estadisticas">
+                <group name="name" string="string">
+                    <field name="name" />
+                    <field name="jugador_id" />
+                    <field name="imagen" />
+                    <field name="partidos" />
+                    <field name="goles" />
+                    <field name="mins_jugados" />
+                    <field name="tarjetas" />
+                    <field name="rendimiento" />
+                </group>
+                </form>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>

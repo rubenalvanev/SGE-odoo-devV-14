@@ -1,0 +1,46 @@
+<odoo>
+    <data>
+    
+        <record id="view_ran_futbol_clasificacion_tree" model="ir.ui.view">
+            <field name="name">ran_futbol.clasificacion.tree</field>
+            <field name="model">ran_futbol.clasificacion</field>
+            <field name="arch" type="xml">
+                <tree string="Clasificación">
+                    <field name="competicion_id"/>
+                    <field name="equipo_id"/>
+                    <field name="puntos"/>
+                    <field name="partidos_ganados"/>
+                    <field name="partidos_empatados"/>
+                    <field name="partidos_perdidos"/>
+                    <field name="goles_favor"/>
+                    <field name="goles_contra"/>
+                    <field name="diferencia_goles" string="Diferencia de Goles"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_ran_futbol_clasificacion_form" model="ir.ui.view">
+            <field name="name">ran_futbol.clasificacion.form</field>
+            <field name="model">ran_futbol.clasificacion</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <field name="competicion_id"/>
+                            <field name="equipo_id"/>
+                            <field name="puntos"/>
+                            <field name="partidos_ganados"/>
+                            <field name="partidos_empatados"/>
+                            <field name="partidos_perdidos"/>
+                            <field name="goles_favor"/>
+                            <field name="goles_contra"/>
+                            <field name="diferencia_goles" string="Diferencia de Goles"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    
+    </data>
+</odoo>
