@@ -1,0 +1,38 @@
+<odoo>
+    <data>
+        <record id="sge_libreria.libro_view_tree" model="ir.ui.view">
+            <field name="name">sge_libreria.libro.tree</field>
+            <field name="model">sge_libreria.libro</field>
+            <field name="arch" type="xml">
+                <tree string="Libro">
+                    <field name="name" optional="show" />
+                    <field name="precio" optional="show" />
+                    <field name="ejemplares" optional="show" />
+                    <field name="fecha_compra" optional="show" />
+                    <field name="segmano" optional="hide" />
+                    <field name="estado" optional="hide" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="sge_libreria.libro_view_form" model="ir.ui.view">
+            <field name="name">sge_libreria.libro.form</field>
+            <field name="model">sge_libreria.libro</field>
+            <field name="arch" type="xml">
+                <form string="Libro">
+                <group name="name" string="string">
+                    <field name="name" />
+                    <field name="precio" />
+                    <field name="ejemplares" />
+                    <field name="fecha_compra" />
+                    <field name="segmano" />
+                    <field name="estado" />
+                    <field name="categoria_id" />
+                </group>
+                </form>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>

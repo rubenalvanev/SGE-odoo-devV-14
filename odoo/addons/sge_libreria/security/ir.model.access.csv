@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+sge_libreria.libro_basic_user,sge_libreria.libro_basic_user,model_sge_libreria_libro,base.group_user,1,1,1,0
+sge_libreria.categoria_basic_user,sge_libreria.categoria_basic_user,model_sge_libreria_categoria,base.group_user,1,1,1,0

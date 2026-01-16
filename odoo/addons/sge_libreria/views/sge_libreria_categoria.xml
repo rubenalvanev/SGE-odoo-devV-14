@@ -1,0 +1,36 @@
+<odoo>
+  <data>
+    <record id="sge_libreria.categoria_view_tree" model="ir.ui.view">
+      <field name="name">sge_libreria.categoria.tree</field>
+      <field name="model">sge_libreria.categoria</field>
+      <field name="arch" type="xml">
+        <tree string="Categorias">
+          <field name="name" />
+          <field name="description" />
+          <field name="libro_ids">
+            <tree string="Libro">
+              <field name="name" />
+              <field name="precio" />
+              <field name="ejemplares" optional="hide" />
+            </tree>
+          </field>
+        </tree>
+      </field>
+    </record>
+
+    <record id="sge_libreria.categoria_view_form" model="ir.ui.view">
+      <field name="name">sge_libreria.categoria.form</field>
+      <field name="model">sge_libreria.categoria</field>
+      <field name="arch" type="xml">
+        <form string="Categorias">
+          <group name="name" string="string">
+            <field name="name" />
+            <field name="description" />
+          </group>
+
+        </form>
+      </field>
+    </record>
+
+  </data>
+</odoo>

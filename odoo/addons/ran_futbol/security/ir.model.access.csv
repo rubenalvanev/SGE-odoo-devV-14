@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+ran_futbol.equipo_basic_user,ran_futbol.equipo_basic_user,model_ran_futbol_equipo,base.group_user,1,1,1,1
+ran_futbol.jugador_basic_user,ran_futbol.jugador_basic_user,model_ran_futbol_jugador,base.group_user,1,1,1,1

@@ -1,0 +1,37 @@
+<odoo>
+    <data>
+        <record id="ran_futbol.jugador_view_tree" model="ir.ui.view">
+            <field name="name">ran_futbol.jugador.tree</field>
+            <field name="model">ran_futbol.jugador</field>
+            <field name="arch" type="xml">
+                <tree string="Jugador">
+                    <field name="name" />
+                    <field name="numero_camiseta" />
+                    <field name="anio" optional="show" />
+                    <field name="fecha_llegada" optional="hide" />
+                    <field name="posicion" />
+                    <field name="equipo_id" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="ran_futbol.jugador_view_form" model="ir.ui.view">
+            <field name="name">ran_futbol.jugador.form</field>
+            <field name="model">ran_futbol.jugador</field>
+            <field name="arch" type="xml">
+                <form string="Jugador">
+                <group name="name" string="string">
+                    <field name="name" />
+                    <field name="numero_camiseta" />
+                    <field name="anio" />
+                    <field name="fecha_llegada" />
+                    <field name="posicion" />
+                    <field name="equipo_id" />
+                </group>
+                </form>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>
