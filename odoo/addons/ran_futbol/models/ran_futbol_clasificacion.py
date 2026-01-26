@@ -4,6 +4,7 @@ class RanFutbolClasificacion(models.Model):
     _name = 'ran_futbol.clasificacion'
     _description = 'Clasificación de Equipos'
 
+    name = fields.Char('Clasificacion')
     competicion_id = fields.Many2one('ran_futbol.competicion', string='Competición')
     equipo_id = fields.Many2one('ran_futbol.equipo', string='Equipo')
     puntos = fields.Integer(string='Puntos', default=0)
@@ -14,6 +15,7 @@ class RanFutbolClasificacion(models.Model):
     goles_contra = fields.Integer(string='Goles en contra', default=0)
     diferencia_goles = fields.Integer(string='Diferencia de goles', compute='_compute_diferencia')
 
+    #campo calculado
     @api.depends('goles_favor', 'goles_contra')
     def _compute_diferencia(self):
         for record in self:

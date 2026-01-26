@@ -16,12 +16,18 @@
         <record id="ran_futbol.estadisticas_action" model="ir.actions.act_window">
             <field name="name">Estadisticas</field>
             <field name="res_model">ran_futbol.estadisticas</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">graph,tree,form</field>
         </record>
 
         <record id="ran_futbol.clasificacion_action" model="ir.actions.act_window">
             <field name="name">Clasificación</field>
             <field name="res_model">ran_futbol.clasificacion</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="ran_futbol.competicion_action" model="ir.actions.act_window">
+            <field name="name">Competición</field>
+            <field name="res_model">ran_futbol.competicion</field>
             <field name="view_mode">tree,form</field>
         </record>
 
@@ -55,6 +61,13 @@
             id="ran_futbol.clasificaion_menu"
             name="Clasificacion"
             action="ran_futbol.clasificacion_action"
+            parent="ran_futbol.root_menu"
+            sequence="10"/>
+        
+        <menuitem
+            id="ran_futbol.competicion_menu"
+            name="Competición"
+            action="ran_futbol.competicion_action"
             parent="ran_futbol.root_menu"
             sequence="10"/>
 

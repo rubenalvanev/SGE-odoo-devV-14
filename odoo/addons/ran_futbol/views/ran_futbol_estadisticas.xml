@@ -7,7 +7,6 @@
                 <tree string="Estadisticas">
                     <field name="name" />
                     <field name="jugador_id" />
-                    <field name="imagen" />
                     <field name="partidos" />
                     <field name="goles" />
                     <field name="mins_jugados" />
@@ -22,17 +21,38 @@
             <field name="model">ran_futbol.estadisticas</field>
             <field name="arch" type="xml">
                 <form string="Estadisticas">
-                <group name="name" string="string">
-                    <field name="name" />
-                    <field name="jugador_id" />
-                    <field name="imagen" />
-                    <field name="partidos" />
-                    <field name="goles" />
-                    <field name="mins_jugados" />
-                    <field name="tarjetas" />
-                    <field name="rendimiento" />
-                </group>
+                    <group name="name" string="string">
+                        <field name="name" />
+                        <field name="jugador_id" />
+                        <field name="partidos" />
+                        <field name="goles" />
+                        <field name="mins_jugados" />
+                        <field name="tarjetas" />
+                        <field name="rendimiento" />
+                    </group>
                 </form>
+            </field>
+        </record>
+
+        <record id="view_estadisticas_graph_goles" model="ir.ui.view">
+            <field name="name">estadisticas.graph.goles</field>
+            <field name="model">ran_futbol.estadisticas</field>
+            <field name="arch" type="xml">
+                <graph string="Goles por Jugador" type="bar">
+                    <field name="jugador_id" type="row"/>
+                    <field name="goles" type="measure"/>
+                </graph>
+            </field>
+        </record>
+
+        <record id="view_ran_futbol_estadisticas_graph_minutos" model="ir.ui.view">
+            <field name="name">ran_futbol.estadisticas.graph</field>
+            <field name="model">ran_futbol.estadisticas</field>
+            <field name="arch" type="xml">
+                <graph string="Minutos Jugados" type="bar">
+                    <field name="jugador_id" type="row"/>
+                    <field name="mins_jugados" type="measure"/>
+                </graph>
             </field>
         </record>
 

@@ -13,11 +13,17 @@ class RanFutbolEquipo(models.Model):
         ('3', 'Cuarta')
     ], string='Division', default='1')
     goles = fields.Integer(string="Goles del equipo", compute="_goles_totales", store=True)
-    competicion_id = fields.Many2one('ran_futbol.competicion', string='Competicion')
+    competicion_ids = fields.Many2many('ran_futbol.competicion',relation='ran_futbol_rel_equipo_competicion', string='Competiciones de los equipos')
     fecha_ultimo_partido = fields.Date('Fecha del ultimo partido')
-    imagen = fields.Image('Imagen', max_width=180, max_height=180)
+    imagen = fields.Image('Imagen', max_width=100, max_height=100)
 
     jugador_ids = fields.One2many('ran_futbol.jugador', 'equipo_id', string='Jugadores')
+
+    _sql_constraints = [
+        ('equipo_nombre_unico',
+         'unique(name)',
+         'Ya existe un equipo con este nombre.')
+    ]
 
     @api.depends('jugador_ids.estadisticas_ids.goles')
     def _goles_totales(self):

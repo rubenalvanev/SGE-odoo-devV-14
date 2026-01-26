@@ -3,3 +3,4 @@ ran_futbol.equipo_basic_user,ran_futbol.equipo_basic_user,model_ran_futbol_equip
 ran_futbol.jugador_basic_user,ran_futbol.jugador_basic_user,model_ran_futbol_jugador,base.group_user,1,1,1,1
 ran_futbol.estadisticas_basic_user,ran_futbol.estadisticas_basic_user,model_ran_futbol_estadisticas,base.group_user,1,1,1,1
 ran_futbol.clasificacion_basic_user,ran_futbol.clasificacion_basic_user,model_ran_futbol_clasificacion,base.group_user,1,1,1,1
+ran_futbol.competicion_basic_user,ran_futbol.competicion_basic_user,model_ran_futbol_competicion,base.group_user,1,1,1,1

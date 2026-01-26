@@ -2,10 +2,10 @@
 {
     'name': "ran_futbol",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Gestión de equipos de futbol",
 
     'description': """
-Long description of module's purpose
+Con esta aplicación podras gestionar varios equipos y jugadores ligados a estos
     """,
 
     'author': "Rubén Álvarez",
@@ -27,6 +27,7 @@ Long description of module's purpose
         'views/ran_futbol_equipo.xml',
         'views/ran_futbol_estadisticas.xml',
         'views/ran_futbol_clasificacion.xml',
+        'views/ran_futbol_competicion.xml',
         'views/menus.xml',
     ],
     # only loaded in demonstration mode

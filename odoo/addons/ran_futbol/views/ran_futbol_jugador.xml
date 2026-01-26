@@ -32,7 +32,6 @@
                             <tree string="Estadisticas">
                                 <field name="name" />
                                 <field name="jugador_id" />
-                                <field name="imagen" />
                                 <field name="partidos" />
                                 <field name="goles" />
                                 <field name="mins_jugados" />

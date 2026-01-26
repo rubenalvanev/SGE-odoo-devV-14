@@ -12,6 +12,7 @@
                     <field name="goles" />
                     <field name="fecha_ultimo_partido" optional="show" />
                     <field name="jugador_ids" />
+                    <field name="competicion_ids" />
                 </tree>
             </field>
         </record>
@@ -28,16 +29,8 @@
                         <field name="division" />
                         <field name="goles" />
                         <field name="fecha_ultimo_partido" />
-                        <field name="jugador_ids">
-                            <tree string="Jugador">
-                                <field name="name" />
-                                <field name="numero_camiseta" />
-                                <field name="anio" />
-                                <field name="fecha_llegada" />
-                                <field name="posicion" />
-                                <field name="equipo_id" />
-                            </tree>
-                        </field>
+                        <field name="jugador_ids" />
+                        <field name="competicion_ids" />
                     </group>
                 </form>
             </field>

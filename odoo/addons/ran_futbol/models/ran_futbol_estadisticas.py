@@ -7,7 +7,6 @@ class RanFutbolEstadisticas(models.Model):
     name = fields.Char('Estadisticas')
     jugador_id = fields.Many2one('ran_futbol.jugador', string='Jugador')
     goles = fields.Integer('Goles')
-    imagen = fields.Image('Imagen', max_width='10', max_height='10')
     partidos = fields.Integer('Partidos')
     mins_jugados = fields.Integer('Minutos jugados')
     tarjetas = fields.Integer('Tarjetas')
