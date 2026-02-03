@@ -1,0 +1,13 @@
+<odoo>
+    <record id="clasificacion_rm" model="ran_futbol.clasificacion">
+        <field name="name">Real Madrid - Liga</field>
+        <field name="competicion_id" ref="competicion_laliga_demo"/>
+        <field name="equipo_id" ref="equipo_real_madrid"/>
+        <field name="puntos">85</field>
+        <field name="partidos_ganados">27</field>
+        <field name="partidos_empatados">4</field>
+        <field name="partidos_perdidos">3</field>
+        <field name="goles_favor">80</field>
+        <field name="goles_contra">25</field>
+    </record>
+</odoo>

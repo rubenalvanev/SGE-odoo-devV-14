@@ -46,7 +46,7 @@
                     <field name="division"/>
                     <field name="goles" />
                     <field name="fecha_ultimo_partido"/>
-                    <field name="jugador_ids"/>
+                    <field name="jugadores_nombres"/>
                     <field name="imagen" />
                     <templates>
                         <t t-name="kanban-box">
@@ -68,12 +68,8 @@
                                     Último partido: <field name="fecha_ultimo_partido"/>
                                 </div>
                                 <div>
-                                    Jugadores:
-                                    <ul>
-                                        <t t-foreach="record.jugador_ids.raw_value" t-as="jugador">
-                                            <li><t t-esc="jugador[1]"/></li>
-                                        </t>
-                                    </ul>
+                                    <strong>Jugadores:</strong>
+                                    <t t-esc="record.jugadores_nombres.value"/>
                                 </div>
                             </div>
                         </t>

@@ -32,7 +32,11 @@ Con esta aplicación podras gestionar varios equipos y jugadores ligados a estos
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        'demo/ran_futbol_competicion_demo.xml',
+        'demo/ran_futbol_equipo_demo.xml',
+        'demo/ran_futbol_jugador_demo.xml',
+        'demo/ran_futbol_estadisticas_demo.xml',
+        'demo/ran_futbol_clasificacion_demo.xml',
     ],
 }
 

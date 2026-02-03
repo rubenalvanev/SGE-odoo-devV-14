@@ -1,0 +1,85 @@
+<odoo>
+    <record id="equipo_real_madrid" model="ran_futbol.equipo">
+        <field name="name">Real Madrid</field>
+        <field name="division">0</field>
+        <field name="dinero">800000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_barcelona" model="ran_futbol.equipo">
+        <field name="name">FC Barcelona</field>
+        <field name="division">0</field>
+        <field name="dinero">700000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_atletico" model="ran_futbol.equipo">
+        <field name="name">Atlético de Madrid</field>
+        <field name="division">0</field>
+        <field name="dinero">500000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_sevilla" model="ran_futbol.equipo">
+        <field name="name">Sevilla FC</field>
+        <field name="division">0</field>
+        <field name="dinero">300000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_espanyol" model="ran_futbol.equipo">
+        <field name="name">RCD Espanyol</field>
+        <field name="division">1</field>
+        <field name="dinero">120000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_valladolid" model="ran_futbol.equipo">
+        <field name="name">Real Valladolid</field>
+        <field name="division">1</field>
+        <field name="dinero">90000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_eibar" model="ran_futbol.equipo">
+        <field name="name">SD Eibar</field>
+        <field name="division">1</field>
+        <field name="dinero">85000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_almeria" model="ran_futbol.equipo">
+        <field name="name">UD Almería</field>
+        <field name="division">1</field>
+        <field name="dinero">80000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_deportivo" model="ran_futbol.equipo">
+        <field name="name">Deportivo La Coruña</field>
+        <field name="division">2</field>
+        <field name="dinero">40000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_racing" model="ran_futbol.equipo">
+        <field name="name">Racing de Santander</field>
+        <field name="division">2</field>
+        <field name="dinero">38000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_cordoba" model="ran_futbol.equipo">
+        <field name="name">Córdoba CF</field>
+        <field name="division">2</field>
+        <field name="dinero">35000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+
+    <record id="equipo_castellon" model="ran_futbol.equipo">
+        <field name="name">CD Castellón</field>
+        <field name="division">2</field>
+        <field name="dinero">30000000</field>
+        <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
+    </record>
+</odoo>

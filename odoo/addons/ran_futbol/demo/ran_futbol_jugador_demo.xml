@@ -1,0 +1,25 @@
+<odoo>
+    <record id="jugador_bellingham" model="ran_futbol.jugador">
+        <field name="name">Jude Bellingham</field>
+        <field name="numero_camiseta">5</field>
+        <field name="anio">2003</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_real_madrid"/>
+    </record>
+
+    <record id="jugador_vinicius" model="ran_futbol.jugador">
+        <field name="name">Vinicius Jr</field>
+        <field name="numero_camiseta">7</field>
+        <field name="anio">2000</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_real_madrid"/>
+    </record>
+
+    <record id="jugador_ter_stegen" model="ran_futbol.jugador">
+        <field name="name">Ter Stegen</field>
+        <field name="numero_camiseta">1</field>
+        <field name="anio">1992</field>
+        <field name="posicion">0</field>
+        <field name="equipo_id" ref="equipo_barcelona"/>
+    </record>
+</odoo>

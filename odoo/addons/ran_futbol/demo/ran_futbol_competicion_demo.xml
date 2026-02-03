@@ -1,0 +1,6 @@
+<odoo>
+    <record id="competicion_laliga_demo" model="ran_futbol.competicion">
+        <field name="name">LaLiga Española</field>
+        <field name="tipo">0</field>
+    </record>
+</odoo>

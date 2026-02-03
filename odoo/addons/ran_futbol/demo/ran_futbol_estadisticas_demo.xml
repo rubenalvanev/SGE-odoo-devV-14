@@ -1,0 +1,11 @@
+<odoo>
+    <record id="estadisticas_bellingham" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_bellingham"/>
+        <field name="goles">15</field>
+        <field name="partidos">30</field>
+        <field name="mins_jugados">2600</field>
+        <field name="tarjetas">5</field>
+        <field name="rendimiento">4</field>
+    </record>
+</odoo>
