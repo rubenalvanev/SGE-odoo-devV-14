@@ -1,6 +1,12 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-ran_futbol.equipo_basic_user,ran_futbol.equipo_basic_user,model_ran_futbol_equipo,base.group_user,1,1,1,1
-ran_futbol.jugador_basic_user,ran_futbol.jugador_basic_user,model_ran_futbol_jugador,base.group_user,1,1,1,1
-ran_futbol.estadisticas_basic_user,ran_futbol.estadisticas_basic_user,model_ran_futbol_estadisticas,base.group_user,1,1,1,1
-ran_futbol.clasificacion_basic_user,ran_futbol.clasificacion_basic_user,model_ran_futbol_clasificacion,base.group_user,1,1,1,1
-ran_futbol.competicion_basic_user,ran_futbol.competicion_basic_user,model_ran_futbol_competicion,base.group_user,1,1,1,1
+ran_futbol.equipo_basic_user,ran_futbol.equipo_basic_user,model_ran_futbol_equipo,base.group_user,1,1,1,0
+ran_futbol.jugador_basic_user,ran_futbol.jugador_basic_user,model_ran_futbol_jugador,base.group_user,1,1,1,0
+ran_futbol.competicion_basic_user,ran_futbol.competicion_basic_user,model_ran_futbol_competicion,base.group_user,1,1,1,0
+ran_futbol.clasificacion_basic_user,ran_futbol.clasificacion_basic_user,model_ran_futbol_clasificacion,base.group_user,1,1,1,0
+ran_futbol.estadisticas_basic_user,ran_futbol.estadisticas_basic_user,model_ran_futbol_estadisticas,base.group_user,1,0,0,0
+
+ran_futbol.equipo_admin,ran_futbol.equipo_admin,model_ran_futbol_equipo,base.group_system,1,1,1,1
+ran_futbol.jugador_admin,ran_futbol.jugador_admin,model_ran_futbol_jugador,base.group_system,1,1,1,1
+ran_futbol.competicion_admin,ran_futbol.competicion_admin,model_ran_futbol_competicion,base.group_system,1,1,1,1
+ran_futbol.clasificacion_admin,ran_futbol.clasificacion_admin,model_ran_futbol_clasificacion,base.group_system,1,1,1,1
+ran_futbol.estadisticas_admin,ran_futbol.estadisticas_admin,model_ran_futbol_estadisticas,base.group_system,1,1,1,1
