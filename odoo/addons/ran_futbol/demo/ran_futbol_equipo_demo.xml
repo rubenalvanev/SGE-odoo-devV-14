@@ -3,6 +3,7 @@
         <field name="name">Real Madrid</field>
         <field name="division">0</field>
         <field name="dinero">800000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/real_madrid.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -10,6 +11,7 @@
         <field name="name">FC Barcelona</field>
         <field name="division">0</field>
         <field name="dinero">700000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/barcelona.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -17,6 +19,7 @@
         <field name="name">Atlético de Madrid</field>
         <field name="division">0</field>
         <field name="dinero">500000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/atletico_madrid.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -24,13 +27,16 @@
         <field name="name">Sevilla FC</field>
         <field name="division">0</field>
         <field name="dinero">300000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/sevilla.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
+
 
     <record id="equipo_espanyol" model="ran_futbol.equipo">
         <field name="name">RCD Espanyol</field>
         <field name="division">1</field>
         <field name="dinero">120000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/espanyol.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -38,6 +44,7 @@
         <field name="name">Real Valladolid</field>
         <field name="division">1</field>
         <field name="dinero">90000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/valladolid.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -45,6 +52,7 @@
         <field name="name">SD Eibar</field>
         <field name="division">1</field>
         <field name="dinero">85000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/eibar.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -52,13 +60,16 @@
         <field name="name">UD Almería</field>
         <field name="division">1</field>
         <field name="dinero">80000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/almeria.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
+    
 
     <record id="equipo_deportivo" model="ran_futbol.equipo">
         <field name="name">Deportivo La Coruña</field>
         <field name="division">2</field>
         <field name="dinero">40000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/deportivo.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -66,6 +77,7 @@
         <field name="name">Racing de Santander</field>
         <field name="division">2</field>
         <field name="dinero">38000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/racing.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -73,6 +85,7 @@
         <field name="name">Córdoba CF</field>
         <field name="division">2</field>
         <field name="dinero">35000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/cordoba.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 
@@ -80,6 +93,7 @@
         <field name="name">CD Castellón</field>
         <field name="division">2</field>
         <field name="dinero">30000000</field>
+        <field name="imagen" type="base64" file="ran_futbol/demo/images/castellon.png"/>
         <field name="competicion_ids" eval="[(6, 0, [ref('competicion_laliga_demo')])]"/>
     </record>
 </odoo>
