@@ -3,4 +3,19 @@
         <field name="name">LaLiga Española</field>
         <field name="tipo">0</field>
     </record>
+
+    <record id="competicion_laliga_segunda" model="ran_futbol.competicion">
+        <field name="name">LaLiga Hypermotion</field>
+        <field name="tipo">0</field>
+    </record>
+
+    <record id="competicion_primera_rfef" model="ran_futbol.competicion">
+        <field name="name">Primera RFEF</field>
+        <field name="tipo">0</field>
+    </record>
+
+    <record id="competicion_champions" model="ran_futbol.competicion">
+        <field name="name">UEFA Champions League</field>
+        <field name="tipo">2</field>
+    </record>
 </odoo>

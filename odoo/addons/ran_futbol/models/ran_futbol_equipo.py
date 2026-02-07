@@ -12,7 +12,7 @@ class RanFutbolEquipo(models.Model):
         ('2', 'Tercera')
     ], string='Division', default='0')
     goles = fields.Integer(string="Goles del equipo", compute="_goles_totales", store=True)
-    competicion_ids = fields.Many2many('ran_futbol.competicion',relation='ran_futbol_rel_equipo_competicion', string='Competiciones de los equipos')
+    competicion_ids = fields.Many2many('ran_futbol.competicion', string='Competiciones de los equipos')
     fecha_ultimo_partido = fields.Date('Fecha del ultimo partido')
     imagen = fields.Image('Imagen', max_width=100, max_height=100)
 

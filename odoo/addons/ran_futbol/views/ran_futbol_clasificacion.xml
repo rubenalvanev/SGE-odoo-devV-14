@@ -24,7 +24,7 @@
             <field name="name">ran_futbol.clasificacion.form</field>
             <field name="model">ran_futbol.clasificacion</field>
             <field name="arch" type="xml">
-                <form string="">
+                <form string="Clasificacion">
                     <sheet>
                         <group>
                             <field name="name"/>

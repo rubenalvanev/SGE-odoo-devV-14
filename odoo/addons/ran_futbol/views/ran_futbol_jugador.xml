@@ -10,7 +10,6 @@
                     <field name="anio" optional="show" />
                     <field name="fecha_llegada" optional="hide" />
                     <field name="posicion" />
-                    <field name="estadisticas_ids" />
                     <field name="equipo_id" />
                 </tree>
             </field>
@@ -21,25 +20,29 @@
             <field name="model">ran_futbol.jugador</field>
             <field name="arch" type="xml">
                 <form string="Jugador">
-                    <group name="name" string="string">
-                        <field name="name" />
-                        <field name="numero_camiseta" />
-                        <field name="anio" />
-                        <field name="fecha_llegada" />
-                        <field name="posicion" />
-                        <field name="equipo_id" />
-                        <field name="estadisticas_ids">
-                            <tree string="Estadisticas">
-                                <field name="name" />
-                                <field name="jugador_id" />
-                                <field name="partidos" />
-                                <field name="goles" />
-                                <field name="mins_jugados" />
-                                <field name="tarjetas" />
-                                <field name="rendimiento" />      
-                            </tree>
-                        </field>
-                    </group>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="numero_camiseta"/>
+                            <field name="anio"/>
+                            <field name="fecha_llegada"/>
+                            <field name="posicion"/>
+                            <field name="equipo_id"/>
+                        </group>
+                        <notebook>
+                            <page string="Estadísticas">
+                                <field name="estadisticas_ids">
+                                    <tree editable="bottom">
+                                        <field name="partidos"/>
+                                        <field name="goles"/>
+                                        <field name="mins_jugados"/>
+                                        <field name="tarjetas"/>
+                                        <field name="rendimiento"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
                 </form>
             </field>
         </record>

@@ -8,7 +8,6 @@
                     <field name="name"/>
                     <field name="tipo"/>
                     <field name="equipo_ids"/>
-                    <field name="clasificacion_ids"/>
                 </tree>
             </field>
         </record>
@@ -22,9 +21,21 @@
                         <group>
                             <field name="name"/>
                             <field name="tipo"/>
-                            <field name="equipo_ids"/>
-                            <field name="clasificacion_ids"/>
                         </group>
+                        <notebook>
+                            <page string="Equipos">
+                                <field name="equipo_ids" widget="many2many_tags"/>
+                            </page>
+                            <page string="Clasificación">
+                                <field name="clasificacion_ids">
+                                    <tree>
+                                        <field name="equipo_id"/>
+                                        <field name="puntos"/>
+                                        <field name="diferencia_goles"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
