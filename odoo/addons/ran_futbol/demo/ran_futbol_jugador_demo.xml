@@ -7,6 +7,22 @@
         <field name="equipo_id" ref="equipo_real_madrid"/>
     </record>
 
+    <record id="jugador_carvajal" model="ran_futbol.jugador">
+        <field name="name">Dani Carvajal</field>
+        <field name="numero_camiseta">2</field>
+        <field name="anio">1992</field>
+        <field name="posicion">1</field>
+        <field name="equipo_id" ref="equipo_real_madrid"/>
+    </record>
+
+    <record id="jugador_mbappe" model="ran_futbol.jugador">
+        <field name="name">Kylean Mbappé</field>
+        <field name="numero_camiseta">10</field>
+        <field name="anio">1998</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_real_madrid"/>
+    </record>
+
     <record id="jugador_vinicius" model="ran_futbol.jugador">
         <field name="name">Vinicius Jr</field>
         <field name="numero_camiseta">7</field>
@@ -15,6 +31,7 @@
         <field name="equipo_id" ref="equipo_real_madrid"/>
     </record>
 
+
     <record id="jugador_ter_stegen" model="ran_futbol.jugador">
         <field name="name">Ter Stegen</field>
         <field name="numero_camiseta">1</field>
@@ -22,4 +39,189 @@
         <field name="posicion">0</field>
         <field name="equipo_id" ref="equipo_barcelona"/>
     </record>
+
+    <record id="jugador_balde" model="ran_futbol.jugador">
+        <field name="name">Alejandro Balde</field>
+        <field name="numero_camiseta">28</field>
+        <field name="anio">2003</field>
+        <field name="posicion">1</field>
+        <field name="equipo_id" ref="equipo_barcelona"/>
+    </record>
+
+    <record id="jugador_olmo" model="ran_futbol.jugador">
+        <field name="name">Dani Olmo</field>
+        <field name="numero_camiseta">20</field>
+        <field name="anio">1998</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_barcelona"/>
+    </record>
+
+    <record id="jugador_robert" model="ran_futbol.jugador">
+        <field name="name">Robert Lewandowski</field>
+        <field name="numero_camiseta">9</field>
+        <field name="anio">1988</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_barcelona"/>
+    </record>
+
+    <record id="jugador_oblak" model="ran_futbol.jugador">
+        <field name="name">Jan Oblak</field>
+        <field name="numero_camiseta">13</field>
+        <field name="anio">1993</field>
+        <field name="posicion">0</field>
+        <field name="equipo_id" ref="equipo_atletico"/>
+    </record>
+
+    <record id="jugador_julian" model="ran_futbol.jugador">
+        <field name="name">Julián Alvarez</field>
+        <field name="numero_camiseta">19</field>
+        <field name="anio">2000</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_atletico"/>
+    </record>
+
+    <record id="jugador_pablo" model="ran_futbol.jugador">
+        <field name="name">Pablo Barrios</field>
+        <field name="numero_camiseta">8</field>
+        <field name="anio">2003</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_atletico"/>
+    </record>
+
+    <record id="jugador_llorente" model="ran_futbol.jugador">
+        <field name="name">Marcos Llorente</field>
+        <field name="numero_camiseta">14</field>
+        <field name="anio">1995</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_atletico"/>
+    </record>
+
+    <record id="jugador_joan" model="ran_futbol.jugador">
+        <field name="name">Joan Jórdan</field>
+        <field name="numero_camiseta">8</field>
+        <field name="anio">1994</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_sevilla"/>
+    </record>
+
+    <record id="jugador_lucien" model="ran_futbol.jugador">
+        <field name="name">Lucien Agoumé</field>
+        <field name="numero_camiseta">18</field>
+        <field name="anio">2002</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_sevilla"/>
+    </record>
+
+    <record id="jugador_tanguy" model="ran_futbol.jugador">
+        <field name="name">Tanguy Nianzou</field>
+        <field name="numero_camiseta">5</field>
+        <field name="anio">2002</field>
+        <field name="posicion">1</field>
+        <field name="equipo_id" ref="equipo_sevilla"/>
+    </record>
+
+    <record id="jugador_nemanja" model="ran_futbol.jugador">
+        <field name="name">Nemanja Gudelj</field>
+        <field name="numero_camiseta">6</field>
+        <field name="anio">1991</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_sevilla"/>
+    </record>
+
+    <record id="jugador_pol" model="ran_futbol.jugador">
+        <field name="name">Pol Lozano</field>
+        <field name="numero_camiseta">10</field>
+        <field name="anio">1999</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_espanyol"/>
+    </record>
+
+    <record id="jugador_leandro" model="ran_futbol.jugador">
+        <field name="name">Leandro Cabrera</field>
+        <field name="numero_camiseta">6</field>
+        <field name="anio">1991</field>
+        <field name="posicion">1</field>
+        <field name="equipo_id" ref="equipo_espanyol"/>
+    </record>
+
+    <record id="jugador_aceves" model="ran_futbol.jugador">
+        <field name="name">Álvaro Aceves</field>
+        <field name="numero_camiseta">21</field>
+        <field name="anio">2003</field>
+        <field name="posicion">0</field>
+        <field name="equipo_id" ref="equipo_valladolid"/>
+    </record>
+
+    <record id="jugador_rafus" model="ran_futbol.jugador">
+        <field name="name">Arnau Ráfus</field>
+        <field name="numero_camiseta">22</field>
+        <field name="anio">2003</field>
+        <field name="posicion">0</field>
+        <field name="equipo_id" ref="equipo_valladolid"/>
+    </record>
+
+    <record id="jugador_carrillo" model="ran_futbol.jugador">
+        <field name="name">Álvaro Carrillo</field>
+        <field name="numero_camiseta">23</field>
+        <field name="anio">2002</field>
+        <field name="posicion">1</field>
+        <field name="equipo_id" ref="equipo_eibar"/>
+    </record>
+
+    <record id="jugador_arnau" model="ran_futbol.jugador">
+        <field name="name">Arnau Comas</field>
+        <field name="numero_camiseta">25</field>
+        <field name="anio">2000</field>
+        <field name="posicion">1</field>
+        <field name="equipo_id" ref="equipo_eibar"/>
+    </record>
+
+    <record id="jugador_robertone" model="ran_futbol.jugador">
+        <field name="name">Lucas Robertone</field>
+        <field name="numero_camiseta">28</field>
+        <field name="anio">1997</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_almeria"/>
+    </record>
+
+    <record id="jugador_iddrisu" model="ran_futbol.jugador">
+        <field name="name">Iddrisu Baba</field>
+        <field name="numero_camiseta">29</field>
+        <field name="anio">1996</field>
+        <field name="posicion">2</field>
+        <field name="equipo_id" ref="equipo_almeria"/>
+    </record>
+
+    <record id="jugador_herrera" model="ran_futbol.jugador">
+        <field name="name">Cristian Herrera</field>
+        <field name="numero_camiseta">14</field>
+        <field name="anio">1991</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_deportivo"/>
+    </record>
+
+    <record id="jugador_arana" model="ran_futbol.jugador">
+        <field name="name">Juan Carlos Arana</field>
+        <field name="numero_camiseta">9</field>
+        <field name="anio">2000</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_racing"/>
+    </record>
+
+    <record id="jugador_casas" model="ran_futbol.jugador">
+        <field name="name">Antonio Casas</field>
+        <field name="numero_camiseta">20</field>
+        <field name="anio">2000</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_cordoba"/>
+    </record>
+
+    <record id="jugador_jesus" model="ran_futbol.jugador">
+        <field name="name">Jesús de Miguel</field>
+        <field name="numero_camiseta">9</field>
+        <field name="anio">1996</field>
+        <field name="posicion">3</field>
+        <field name="equipo_id" ref="equipo_castellon"/>
+    </record>
+    
 </odoo>

@@ -2,10 +2,280 @@
     <record id="estadisticas_bellingham" model="ran_futbol.estadisticas">
         <field name="name">Temporada 2024</field>
         <field name="jugador_id" ref="jugador_bellingham"/>
-        <field name="goles">15</field>
-        <field name="partidos">30</field>
-        <field name="mins_jugados">2600</field>
+        <field name="goles">19</field>
+        <field name="partidos">28</field>
+        <field name="mins_jugados">2300</field>
         <field name="tarjetas">5</field>
+        <field name="rendimiento">4</field>
+    </record>
+
+    <record id="estadisticas_carvajal" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_carvajal"/>
+        <field name="goles">4</field>
+        <field name="partidos">28</field>
+        <field name="mins_jugados">2200</field>
+        <field name="tarjetas">4</field>
+        <field name="rendimiento">4</field>
+    </record>
+
+    <record id="estadisticas_mbappe" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_mbappe"/>
+        <field name="goles">27</field>
+        <field name="partidos">29</field>
+        <field name="mins_jugados">2100</field>
+        <field name="tarjetas">2</field>
+        <field name="rendimiento">4</field>
+    </record>
+
+    <record id="estadisticas_vinicius" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_vinicius"/>
+        <field name="goles">15</field>
+        <field name="partidos">26</field>
+        <field name="mins_jugados">1900</field>
+        <field name="tarjetas">7</field>
+        <field name="rendimiento">4</field>
+    </record>
+
+    <record id="estadisticas_ter_stegen" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_ter_stegen"/>
+        <field name="goles">0</field>
+        <field name="partidos">28</field>
+        <field name="mins_jugados">2500</field>
+        <field name="tarjetas">1</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_olmo" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_olmo"/>
+        <field name="goles">8</field>
+        <field name="partidos">25</field>
+        <field name="mins_jugados">1750</field>
+        <field name="tarjetas">2</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_balde" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_balde"/>
+        <field name="goles">1</field>
+        <field name="partidos">18</field>
+        <field name="mins_jugados">1400</field>
+        <field name="tarjetas">3</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_robert" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_robert"/>
+        <field name="goles">19</field>
+        <field name="partidos">35</field>
+        <field name="mins_jugados">2900</field>
+        <field name="tarjetas">5</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_oblak" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_oblak"/>
+        <field name="goles">0</field>
+        <field name="partidos">38</field>
+        <field name="mins_jugados">3400</field>
+        <field name="tarjetas">1</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_julian" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_julian"/>
+        <field name="goles">11</field>
+        <field name="partidos">36</field>
+        <field name="mins_jugados">2300</field>
+        <field name="tarjetas">0</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_pablo" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_pablo"/>
+        <field name="goles">1</field>
+        <field name="partidos">24</field>
+        <field name="mins_jugados">1500</field>
+        <field name="tarjetas">5</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_llorente" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_llorente"/>
+        <field name="goles">6</field>
+        <field name="partidos">37</field>
+        <field name="mins_jugados">2900</field>
+        <field name="tarjetas">6</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_joan" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_joan"/>
+        <field name="goles">0</field>
+        <field name="partidos">12</field>
+        <field name="mins_jugados">600</field>
+        <field name="tarjetas">2</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_lucien" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_lucien"/>
+        <field name="goles">0</field>
+        <field name="partidos">13</field>
+        <field name="mins_jugados">950</field>
+        <field name="tarjetas">3</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_tanguy" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_tanguy"/>
+        <field name="goles">0</field>
+        <field name="partidos">10</field>
+        <field name="mins_jugados">700</field>
+        <field name="tarjetas">4</field>
+        <field name="rendimiento">1</field>
+    </record>
+
+    <record id="estadisticas_nemanja" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_nemanja"/>
+        <field name="goles">1</field>
+        <field name="partidos">22</field>
+        <field name="mins_jugados">1800</field>
+        <field name="tarjetas">6</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_pol" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_pol"/>
+        <field name="goles">1</field>
+        <field name="partidos">25</field>
+        <field name="mins_jugados">1200</field>
+        <field name="tarjetas">4</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_aceves" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_aceves"/>
+        <field name="goles">0</field>
+        <field name="partidos">2</field>
+        <field name="mins_jugados">180</field>
+        <field name="tarjetas">0</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_rafus" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_rafus"/>
+        <field name="goles">0</field>
+        <field name="partidos">0</field>
+        <field name="mins_jugados">0</field>
+        <field name="tarjetas">0</field>
+        <field name="rendimiento">0</field>
+    </record>
+
+    <record id="estadisticas_leandro" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_leandro"/>
+        <field name="goles">0</field>
+        <field name="partidos">39</field>
+        <field name="mins_jugados">3500</field>
+        <field name="tarjetas">9</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_carrillo" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_carrillo"/>
+        <field name="goles">0</field>
+        <field name="partidos">15</field>
+        <field name="mins_jugados">1100</field>
+        <field name="tarjetas">3</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_arnau" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_arnau"/>
+        <field name="goles">0</field>
+        <field name="partidos">12</field>
+        <field name="mins_jugados">900</field>
+        <field name="tarjetas">2</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_robertone" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_robertone"/>
+        <field name="goles">0</field>
+        <field name="partidos">30</field>
+        <field name="mins_jugados">2400</field>
+        <field name="tarjetas">8</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_arana" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_arana"/>
+        <field name="goles">13</field>
+        <field name="partidos">34</field>
+        <field name="mins_jugados">2200</field>
+        <field name="tarjetas">4</field>
+        <field name="rendimiento">3</field>
+    </record>
+
+    <record id="estadisticas_iddrisu" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_iddrisu"/>
+        <field name="goles">0</field>
+        <field name="partidos">25</field>
+        <field name="mins_jugados">1800</field>
+        <field name="tarjetas">5</field>
+        <field name="rendimiento">2</field>
+    </record>
+
+    <record id="estadisticas_herrera" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_herrera"/>
+        <field name="goles">2</field>
+        <field name="partidos">20</field>
+        <field name="mins_jugados">800</field>
+        <field name="tarjetas">1</field>
+        <field name="rendimiento">1</field>
+    </record>
+
+    <record id="estadisticas_casas" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_casas"/>
+        <field name="goles">15</field>
+        <field name="partidos">36</field>
+        <field name="mins_jugados">2800</field>
+        <field name="tarjetas">2</field>
+        <field name="rendimiento">4</field>
+    </record>
+
+    <record id="estadisticas_jesus" model="ran_futbol.estadisticas">
+        <field name="name">Temporada 2024</field>
+        <field name="jugador_id" ref="jugador_jesus"/>
+        <field name="goles">16</field>
+        <field name="partidos">38</field>
+        <field name="mins_jugados">3100</field>
+        <field name="tarjetas">3</field>
         <field name="rendimiento">4</field>
     </record>
 </odoo>
