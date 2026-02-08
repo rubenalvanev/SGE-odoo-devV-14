@@ -6,7 +6,7 @@
             <field name="arch" type="xml">
                 <tree string="Equipo">
                     <field name="name" />
-                    <field name="imagen" widget="image" />
+                    <field name="imagen" />
                     <field name="dinero" optional="show" />
                     <field name="division" optional="show" />
                     <field name="goles" />
@@ -24,7 +24,7 @@
                     <sheet>
                         <group>
                             <field name="name" />
-                            <field name="imagen" />
+                            <field name="imagen" widget="image" />
                             <field name="dinero" />
                             <field name="division" />
                             <field name="goles" />
